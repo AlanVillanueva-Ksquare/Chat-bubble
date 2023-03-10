@@ -1,0 +1,70 @@
+*{
+    font-size: small;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.chat{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50em;
+
+}
+
+p{
+    margin: 8px 0 8px 0;
+}
+
+.receiver .message{
+    background-color: rgb(241, 255, 239);
+    
+}
+
+.sender .message{
+    background-color: rgb(239, 241, 245);
+}
+
+.receiver{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sender{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.chat{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+img.user{
+    height: 3em;
+    width: 3em;
+    position: relative;
+    top: 0.2em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+img.paloma{
+    height: 0.9em;
+    width: 1.3em; 
+    margin-left: 0.8em;
+}
+
+.message{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0 0.9em 0.8em 0.8em ;
+    width: 17em;
+}
+
+.m-inf{
+    align-self: flex-end;
+    color: rgb(190,197,187);
+    font-size: smaller;
+}
